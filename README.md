@@ -32,15 +32,11 @@ Frontend for the Contact Us application. Built with Next.js and Tailwind CSS, co
 
 ## 📦 Installation
 
-Clone the repo: `git clone https://github.com/your-username/contact-us-frontend.git && cd contact-us-frontend`
-
-Install dependencies: `npm install` (or `yarn install`)
-
-Copy environment file: `cp .env.example .env.local`
-
-Edit `.env.local` and set the API URL: `NEXT_PUBLIC_API_URL=http://localhost:8000/api` (example)
-
-Start the development server: `npm run dev`
+1. Clone the repo: `git clone https://github.com/your-username/contact-us-frontend.git && cd contact-us-frontend`
+2. Install dependencies: `npm install` (or `yarn install`)
+3. Copy environment file: `cp .env.example .env.local`
+4. Edit `.env.local` and set the API URL: `NEXT_PUBLIC_API_URL=http://localhost:8000/api` (example)
+5. Start the development server: `npm run dev`
 
 
 
