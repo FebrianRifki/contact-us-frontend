@@ -38,5 +38,12 @@ Install dependencies: `npm install` (or `yarn install`)
 
 Copy environment file: `cp .env.example .env.local`
 
-Edit `.env.local` and set the API URL:
+Edit `.env.local` and set the API URL: NEXT_PUBLIC_API_URL=http://localhost:8000/api (example)
+
+Jalankan server development: npm run dev
+
+
+
+
+
 
