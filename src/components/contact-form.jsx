@@ -28,7 +28,7 @@ export function ContactForm() {
             }
 
             const result = await emailService.sendEmail(payload);
-            if (result.status_code) {
+            if (result.success) {
                 addToast({
                     type: "success",
                     title: "Message Sent!",
