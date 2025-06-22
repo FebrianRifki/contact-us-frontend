@@ -1,20 +1,20 @@
 # 🌐 Contact Us - Frontend (Next.js)
 
-Frontend untuk aplikasi Contact Us. Dibangun dengan Next.js dan Tailwind CSS. Terhubung ke Laravel backend untuk pengiriman dan pengelolaan pesan.
+Frontend for the Contact Us application. Built with Next.js and Tailwind CSS, connected to a Laravel backend for message submission and management.
 
 ---
 
-## 🚀 Fitur
+## 🚀 Features
 
-- Formulir kontak publik
+- Public contact form
 - Admin login & dashboard
-- Lihat, balas, dan hapus pesan
-- Terhubung dengan backend Laravel
-- Notifikasi (toast) untuk umpan balik pengguna
+- View, reply, and delete messages
+- Connected to Laravel backend
+- Toast notifications for user feedback
 
 ---
 
-## 🛠️ Teknologi
+## 🛠️ Tech Stack
 
 - Next.js 15 (App Router)
 - React 19
@@ -23,17 +23,20 @@ Frontend untuk aplikasi Contact Us. Dibangun dengan Next.js dan Tailwind CSS. Te
 
 ---
 
-## ⚙️ Kebutuhan
+## ⚙️ Requirements
 
 - Node.js >= 18.x
-- npm atau yarn
+- npm or yarn
 
 ---
 
-## 📦 Instalasi
+## 📦 Installation
 
-1. **Clone repository**
+Clone the repo: `git clone https://github.com/your-username/contact-us-frontend.git && cd contact-us-frontend`
 
-```bash
-git clone https://github.com/your-username/contact-us-frontend.git
-cd contact-us-frontend
+Install dependencies: `npm install` (or `yarn install`)
+
+Copy environment file: `cp .env.example .env.local`
+
+Edit `.env.local` and set the API URL:
+
