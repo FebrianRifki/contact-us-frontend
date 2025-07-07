@@ -5,6 +5,7 @@ export const metadata = {
     description: "View and reply to contact message",
 }
 
-export default function MessageDetailPage({ params }) {
-    return <MessageDetail messageId={params.id} />
+export default async function MessageDetailPage({ params }) {
+    let param = await params;
+    return <MessageDetail messageId={param.id} />
 }
